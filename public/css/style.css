@@ -1,0 +1,225 @@
+:root{
+    --principal:#B5B5B5;
+    --logo:#FFC300;
+    --letter:#000000;
+    --button:#FFC300;
+    --parrafo:#A2A095;
+    --lettersecond:#CA4747;
+    --footer:#404040;
+    --iconos:#ffffff;
+
+}
+
+html{
+    font-family: 'BenchNine', sans-serif;
+    
+    
+}
+body{
+    margin: 0;
+}
+.navegador{
+    font-size: 2.5rem;
+    text-align: center;
+    background-color: var(--principal);
+    display: flex;
+    justify-content: space-around;
+  
+}
+.hola{
+    color: honeydew;
+    text-decoration: none;
+}
+
+.encabezado{
+display: inline-flex;
+flex-wrap: wrap;
+width: 100%;
+padding: 10px 15px;
+justify-content: space-between;
+background-color: var(--footer);
+}
+
+.topics{
+    font-family: 'Monoton', cursive;
+    color: var(--lettersecond);
+    font-size: 6rem;
+    
+}
+
+.icon {
+    width: 30px;
+    height:30px;
+    border-radius:160px;
+    border: 2px solid var(--logo);
+    background-color: var(--logo);
+}
+
+.tituloprincipal{
+    
+    margin-right: auto;
+    display: inline-block;
+    margin-block-start: 0;
+    margin-block-end:0;
+    color: var(--iconos);
+    font-size: 3rem;
+
+}
+
+.buscador{
+    font-size: 1.5rem;
+    
+}
+.topical{
+    text-align: center;
+}
+
+/* footer */
+.navfin{
+    background-color: var(--footer);
+    width: 100%;
+    height: 150px;
+    margin-top: 60px;
+
+}
+
+.navend{
+    background-color: var(--button);
+    width: 100%;
+    height: 50px;
+    
+
+}
+
+.copyright{
+    
+    margin-top: auto;
+    margin-bottom: auto;
+    text-align: center;
+    
+}
+
+.redes{
+    text-align: center;
+    font-family: var(--button);
+}
+
+.face{
+margin-top: 25px;
+
+}
+h3.netwok{
+    font-family: var(--button);
+}
+
+.cajita{
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-bottom: 10%;
+}
+
+.cajacontacto{
+    margin-right: 20%;
+    margin-bottom: 20%;
+    margin-left: 20%;
+    padding-left: 15%;
+    padding-right: 15%;
+    text-align: center;
+    font-size: 1.5rem;
+}
+
+.texto{
+    font-size: 1.5rem;
+}
+
+/* home */
+.alex{
+    text-align: center;
+    background-color: var(--principal);
+    width: 100%;
+
+}
+.alexmoscu1{
+    width: 200px;
+    height: 200px;
+    margin-left: 10px;
+    margin-right: 10px;
+    border-radius: 160px;
+    text-align: center;
+    flex-wrap: nowrap;
+    display: inline-flex;
+    transition: transform .5s ;
+ 
+    
+}
+
+
+.alexmoscu1:hover {
+    transform: scale(1.5);
+    opacity: 0.8;
+    text-align: center;
+   
+    
+    
+}
+
+/* about me */
+
+.alexmoscu{
+    width: 300px;
+    height: 300px;
+    margin-left: auto;
+    margin-left: auto;
+    border-radius: 160px;
+    text-align: center;
+    
+}
+.alexmoscuimage{
+    text-align: center;
+}
+
+/* DESTINATION */
+
+.alexmoscu2{
+    width: 200px;
+    height: 200px;
+    margin-left: auto;
+    margin-right: 10px;
+    border-radius: 160px;
+    text-align: center;
+    flex-wrap: nowrap;
+    display: inline-flex;
+    
+}
+.destino{
+    flex-wrap: nowrap;
+    display: inline-flex;
+    text-align: justify;
+
+}
+.imagen123{
+    text-align: center;
+    flex-wrap: nowrap;
+    
+}
+.topics1{
+    font-family: 'Monoton', cursive;
+    color: var(--lettersecond);
+    font-size: 2rem;
+    
+}
+
+/* contact me */
+
+.send{
+    text-align:right;
+   
+}
+.send2{
+    margin-top: 10px;
+    font-size: 1.2rem;
+    padding-left: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-right: 10px;
+}
